@@ -19,7 +19,7 @@ const params = {
   openAIApiKey,
   modelName: process.env.OPENAI_MODEL ?? "gpt-4",
   maxConcurrency: 1,
-  maxTokens: 5000,
+  maxTokens: 1000,
   maxRetries: 5,
 };
 
